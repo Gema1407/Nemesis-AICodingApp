@@ -1,4 +1,4 @@
-This project is just a product of AI Coding that I tried
+This project is just a product of AI Coding that I tried (dont take it to serious plsss😅😭🙏)
 
 # Nemesis | Next-Gen Cybersecurity Platform
 
