@@ -1,5 +1,8 @@
-This project is just a product of AI Coding that I tried, i made a new gemini gem for prompting and this is the product of the prompt, the prompt is good enough to make this web in a few minutes but it ended up taking like 2 hours and 3 - 4 new chat for the agent to debug the blank page problem
-(dont take this project too serious plsssssss😅😭🙏)
+This project is just something I generated using AI coding. I made a new Gemini gem for prompting, and this is the result. The prompt was actually good enough to build this website in a few minutes, but it still ended up taking around 2 hours and 3–4 new chats for the agent to debug a blank-page issue.
+
+(Please don’t take this project too seriously 😅😭🙏)
+
+The website isn’t fully functional yet because my main goal was simply to test my new Gemini gem and see how well an AI agent can handle UI/UX for a web project.
 
 # Nemesis | Next-Gen Cybersecurity Platform
 
