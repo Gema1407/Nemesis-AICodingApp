@@ -1,7 +1,7 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { ThreatItem } from '../molecules/ThreatItem';
 import { useAppStore } from '../../store/useAppStore';
-import { AlertCircle } from 'lucide-react';
+import { AlertCircle, Shield } from 'lucide-react';
 
 export const ThreatFeed: React.FC = () => {
   const { threats, updateThreatStatus } = useAppStore();
@@ -60,5 +60,4 @@ export const ThreatFeed: React.FC = () => {
   );
 };
 
-// Import Shield icon
-import { Shield } from 'lucide-react';
+

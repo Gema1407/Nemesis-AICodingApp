@@ -1,4 +1,4 @@
-import { SeverityLevel } from '../../types';
+import type { SeverityLevel } from '../../types';
 import { cn } from '../../lib/utils';
 
 interface BadgeProps {

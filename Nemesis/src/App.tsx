@@ -52,8 +52,8 @@ function App() {
             transition={{ duration: 0.3 }}
             className="flex-1 flex flex-col"
           >
-            {/* {renderPage()} */}
-            <div className="text-white p-10"><h1>App Debug (No Pages)</h1></div>
+            {renderPage()}
+            {/* <div className="text-white p-10"><h1>App Debug (No Pages)</h1></div> */}
           </motion.div>
         </AnimatePresence>
       </div>

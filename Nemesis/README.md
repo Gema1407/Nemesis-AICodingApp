@@ -1,73 +1,91 @@
-# React + TypeScript + Vite
+# Nemesis | Next-Gen Cybersecurity Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Nemesis Banner](https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2070&auto=format&fit=crop)
 
-Currently, two official plugins are available:
+Nemesis is a cutting-edge cybersecurity dashboard designed for real-time threat monitoring and system analytics. Built with modern web technologies, it features a stunning cyberpunk aesthetic with glassmorphism effects, interactive 3D visualizations, and responsive data feeds.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- **Real-time Threat Monitoring**: Live feed of detected threats with severity levels and status tracking.
+- **Interactive 3D Globe**: Visual representation of global threat origins and targets.
+- **System Health Analytics**: Dashboard metrics for active threats, mitigated attacks, and system vulnerabilities.
+- **Cyberpunk Aesthetic**: Immersive dark mode UI with neon accents, glassmorphism, and smooth animations.
+- **Responsive Design**: Fully responsive layout that works seamlessly across different device sizes.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- **Framework**: [React](https://react.dev/) (v18) with [TypeScript](https://www.typescriptlang.org/)
+- **Build Tool**: [Vite](https://vitejs.dev/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/) (v3)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **State Management**: [Zustand](https://github.com/pmndrs/zustand)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Visualizations**: [React Globe GL](https://github.com/vasturiano/react-globe.gl) & [Recharts](https://recharts.org/)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 📦 Getting Started
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### Prerequisites
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- Node.js (v18 or higher)
+- npm or yarn
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Installation
+
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/Gema1407/Nemesis-AICodingApp.git
+    cd nemesis
+    ```
+
+2.  Install dependencies:
+    ```bash
+    npm install
+    ```
+
+### Running the Application
+
+Start the development server:
+
+```bash
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+The application will be available at `http://localhost:5173`.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Building for Production
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Build the application for production:
+
+```bash
+npm run build
 ```
+
+Preview the production build:
+
+```bash
+npm run preview
+```
+
+## 📂 Project Structure
+
+```
+src/
+├── components/       # Reusable UI components
+│   ├── atoms/        # Basic building blocks (Button, Badge, Input)
+│   ├── molecules/    # Composite components (NavItem, ThreatItem)
+│   └── organisms/    # Complex sections (Sidebar, Header, ThreatFeed)
+├── lib/              # Utilities and helper functions
+├── pages/            # Main application pages (Dashboard, Threats, Scanner)
+├── store/            # Global state management (Zustand)
+├── types/            # TypeScript type definitions
+├── App.tsx           # Main application component
+└── main.tsx          # Entry point
+```
+
+## 🎨 Design System
+
+Nemesis uses a custom Tailwind configuration to achieve its unique look:
+
+- **Colors**: Custom palette including `nemesis-bg`, `nemesis-accent-cyan`, `nemesis-accent-violet`, etc.
+- **Fonts**: `Orbitron` for headers, `JetBrains Mono` for data, and `Inter` for UI text.
+- **Effects**: Custom `glass-card` utility for frosted glass effects and neon glow shadows.
