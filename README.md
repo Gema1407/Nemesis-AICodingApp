@@ -1,5 +1,5 @@
 This project is just a product of AI Coding that I tried, i made a new gemini gem for prompting and this is the product of the prompt, the prompt is good enough to make this web in a few minutes but it ended up taking like 2 hours and 3 - 4 new chat for the agent to debug the blank page problem
-(dont take it to serious plsss😅😭🙏)
+(dont take this project too serious plsssssss😅😭🙏)
 
 # Nemesis | Next-Gen Cybersecurity Platform
 
