@@ -2,8 +2,6 @@ This project is just a product of AI Coding that I tried
 
 # Nemesis | Next-Gen Cybersecurity Platform
 
-![Nemesis Banner](https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2070&auto=format&fit=crop)
-
 Nemesis is a cutting-edge cybersecurity dashboard designed for real-time threat monitoring and system analytics. Built with modern web technologies, it features a stunning cyberpunk aesthetic with glassmorphism effects, interactive 3D visualizations, and responsive data feeds.
 
 ## 🚀 Features
